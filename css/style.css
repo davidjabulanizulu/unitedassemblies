@@ -28,14 +28,14 @@ Table of Content:
 06/ breadcrumb
 07/ about
 08/ team
-09/ project 
-10/ price 
-11/ team 
-12/ blog 
-13/ video  
-14/ features  
-15/ career  
-16/ contact 
+09/ project
+10/ price
+11/ team
+12/ blog
+13/ video
+14/ features
+15/ career
+16/ contact
 17/ footer
 
 =====================================================================*/
@@ -768,19 +768,19 @@ h3 {
 
 .banner_area {
     min-height: 680px;
-    background: -webkit-gradient(linear, left top, right top, from(rgba(4, 9, 30, 0.8)), to(rgba(4, 9, 30, 0.8))), url("../image/banner.jpg");
-    background: -webkit-linear-gradient(left, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/banner.jpg");
-    background: -o-linear-gradient(left, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/banner.jpg");
-    background: linear-gradient(to right, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/banner.jpg");
+    background: -webkit-gradient(linear, left top, right top, from(rgba(4, 9, 30, 0.8)), to(rgba(4, 9, 30, 0.9))), url("../image/banner.jpg");
+    background: -webkit-linear-gradient(left, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.9)), url("../image/banner.jpg");
+    background: -o-linear-gradient(left, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.9)), url("../image/banner.jpg");
+    background: linear-gradient(to right, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.9)), url("../image/banner.jpg");
     background-size: cover;
 }
 
 .banner_diki {
     min-height: 680px;
-    background: -webkit-gradient(linear, left top, right top, from(rgba(4, 9, 30, 0.8)), to(rgba(4, 9, 30, 0.8))), url("../image/banner.jpg");
-    background: -webkit-linear-gradient(left, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/banner.jpg");
-    background: -o-linear-gradient(left, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/banner.jpg");
-    background: linear-gradient(to right, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/banner.jpg");
+    background: -webkit-gradient(linear, left top, right top, from(rgba(4, 9, 30, 0.9)), to(rgba(4, 9, 30, 0.9))), url("../image/banner.jpg");
+    background: -webkit-linear-gradient(left, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.9)), url("../image/banner.jpg");
+    background: -o-linear-gradient(left, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.9)), url("../image/banner.jpg");
+    background: linear-gradient(to right, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.9)), url("../image/banner.jpg");
     background-size: cover;
 }
 
@@ -1159,11 +1159,24 @@ h3 {
     background: #f9f9ff;
     padding-top: 80px;
 }
+.categories_post .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(4, 9, 30, 0.75);
+
+
+}
 
 .categories_post {
     position: relative;
     text-align: center;
     cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .categories_post img {
@@ -1176,7 +1189,7 @@ h3 {
     left: 20px;
     right: 20px;
     bottom: 20px;
-    background: rgba(34, 34, 34, 0.8);
+    background: rgba(41, 66, 101, 0.5);
     color: #fff;
     -webkit-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
@@ -1213,7 +1226,19 @@ h3 {
 }
 
 .categories_post:hover .categories_details {
-    background: rgba(0, 200, 230, 0.85);
+    background: rgba(182, 49, 51, 0.7);
+}
+
+.overlay-effect {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(259, 67, 95, 0.7);
+  overflow:hidden;
 }
 
 
@@ -3789,6 +3814,8 @@ a.morelink {
 .morecontent span {
     display: none;
 }
+
+
 
 
 /*---------------------------------------------------- */
