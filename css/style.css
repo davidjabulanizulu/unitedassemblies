@@ -1189,7 +1189,7 @@ h3 {
     left: 20px;
     right: 20px;
     bottom: 20px;
-    background: rgba(41, 66, 101, 0.5);
+    background: rgba(41, 66, 101, 0.1);
     color: #fff;
     -webkit-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
